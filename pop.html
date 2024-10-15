@@ -1,0 +1,121 @@
+<html>
+
+<head>
+    <meta name="viewport" content="intial scale=1.0,userscalable=yes,min-scale=0.5,max-scale=5.0 width=device-width">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+     <!-- Include your external JavaScript file -->
+     <script src="script.js"></script>
+
+</head>
+
+<body>
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Music Lover</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="file:///C:/Users/Skris/OneDrive/Desktop/FSD%20indv/Home%20Page/home_page.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                        Genre
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="file:///C:/Users/Skris/OneDrive/Desktop/FSD%20indv/Bollywood/bollywood.html">Bollywood</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="file:///C:/Users/Skris/OneDrive/Desktop/FSD%20indv/pop/pop.html">Pop</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="file:///C:/Users/Skris/OneDrive/Desktop/FSD%20indv/country/country.html">Country</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="file:///C:/Users/Skris/OneDrive/Desktop/FSD%20indv/Rock/rock.html">Rock</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="file:///C:/Users/Skris/OneDrive/Desktop/FSD%20indv/indie/indie_hindi.html">Indie</a>
+                    </div>
+                </li>
+            </ul>
+             <!-- Search Bar Icon -->
+            <form class="form-inline my-2 my-lg-0">
+                <input id="searchBar" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" oninput="highlightText()">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <div style="margin-top:55px">
+        <div style="background-color:black;color:white;" align="center">Pop</div>
+    <div class="row">
+        <div class="col-sm-3 table-primary highlightable" align="center" style="border:1px solid black;">
+            <image src="nessa.jpeg" alt="Nessa Barrett" class="img-thumbnail" style="width:250px;height:250px" />
+            <p>Nessa Barrett</p>
+            <p style="text-justify:justify;">
+            <p class="table-dark">About:</p>
+            Singer-songwriter Nessa Barrett's Warner Records debut album, young forever, features edgy, gothic pop 
+            grounded in stories about heartache, mental health, and accountability. Writing and singing have always 
+            been the saving grace that helped Barrett feel less alone in the world and less alone with her thoughts 
+            as she battled demons from her past and mental health struggles, including bipolar personality disorder 
+            and an eating disorder.
+            </p>
+        </div>
+        <div class="col-sm-3 table-warning highlightable" align="center" style="border:1px solid black;">
+            <image src="zayn.jpeg" alt="Zayn Malik" class="img-thumbnail btn-color-info"
+                style="width:250px;height:250px" />
+            <p>Zayn Malik</p>
+            <p style="text-justify:justify;">
+            <p class="table-dark">About:</p>
+            Armed with just a ukulele and acoustic guitar, Punjabi singer-songwriter Anuv Jain adds natural
+            warmth to melancholy yet reassuring tracks that have helped him become one of India's top
+            independent artists.
+            In 2012 at the age of 17, he wrote and uploaded a demo version of “Baarishein”, his twinkling
+            debut single. He later rerecorded it for official release in 2018.
+            When he was 17, he also wrote the stirring, powerful song “Maula”—written from the perspective
+            of his twin sister—when their father sadly passed away. It was officially released in 2020.
+            Despite Jain's songs of heartbreak, he also pens happier cuts like “Mishri” and English-language 
+            numbers such as 2018's ukulele-strummed “Ocean”.
+            </p>
+        </div>
+        <div class="col-sm-3 table-info highlightable" align="center" style="border:1px solid black;justify-content:center;">
+            <image src="shawn.jpeg" alt="Shawn Mendes" class="img-thumbnail" style="width:250px;height:250px" />
+            <p>Shawn Mendes</p>
+            <p style="text-justify:justify;">
+            <p class="table-dark">About:</p>
+            The Local Train is a Hindi Rock Band from New Delhi that makes use of Hindi and Urdu lyrics
+            delivering an amalgamation of ideas that they wish to express through their music.
+            The band launched 4 singles over a year before releasing their debut album 'Aalas ka Pedh'
+            in 2015. Their second album Vaaqif was released in January 2018 which generated very promising
+            sales and was one of the most streamed independent albums in India.
+            </p>
+        </div>
+        <div class="col-sm-3 table-light highlightable" align="center" style="border:1px solid black;">
+            <image src="taylor.jpeg" alt="Taylor Swift" class="img-thumbnail" style="width:250px;height:250px" />
+            <p>Taylor Swift</p>
+            <p style="text-justify:justify;">
+            <p class="table-dark">About:</p>
+            The smooth melodicism of singer/songwriter Prateek Kuhad spans graceful indie folk and tender
+            adult pop songs largely concerned with matters of heart. Recording some of his songs in Hindi
+            and some in English.
+            he presented his first full-length release, In Tokens & Charms, in 2015. A deluxe edition
+            followed two years later. In the meantime, Kuhad collected tens of millions of streams with
+            "Kho Gaye Hum Kahan," an intimate acoustic duet with Jasleen Royal for the movie Baar Baar Dekho;
+            enjoyed an international breakthrough with the song "cold/mess" that included a growing fan
+            base in the U.S.; and he took home an MTV Europe music Award for Best India Act.
+            </p>
+        </div>
+    </div>
+    </div>
+
+</html>

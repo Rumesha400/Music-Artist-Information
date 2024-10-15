@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <meta name="viewport" content="intial scale=1.0,userscalable=yes,min-scale=0.5,max-scale=5.0 width=device-width">
+        
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+        <!-- jQuery library -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+        <!-- Popper JS -->
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+        <!-- Latest compiled JavaScript --> 
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+
+         <!-- Include your external JavaScript file -->
+        <script src="script.js"></script>
+    </head>
+
+    <body>
+        <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Music Lover</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="file:///C:/Users/Skris/OneDrive/Desktop/FSD%20indv/Home%20Page/home_page.html">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" data-toggle="dropdown">
+                        Genre
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="file:///C:/Users/Skris/OneDrive/Desktop/FSD%20indv/Bollywood/bollywood.html">Bollywood</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="file:///C:/Users/Skris/OneDrive/Desktop/FSD%20indv/pop/pop.html">Pop</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="file:///C:/Users/Skris/OneDrive/Desktop/FSD%20indv/country/country.html">Country</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="file:///C:/Users/Skris/OneDrive/Desktop/FSD%20indv/Rock/rock.html">Rock</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="file:///C:/Users/Skris/OneDrive/Desktop/FSD%20indv/indie/indie_hindi.html">Indie</a>
+                    </div>
+                </li>
+            </ul>
+             <!-- Search Bar Icon -->
+            <form class="form-inline my-2 my-lg-0">
+                <input id="searchBar" class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" oninput="highlightText()">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+        <div style="margin-top:55px">
+            <div style="background-color:black;color:white;" align="center">Bollywood</div>
+        <div class="row">
+            <div class="col-sm-3 table-primary highlightable" align="center" style="border:1px solid black;">
+                <image src="shaan.jpeg" alt="Shaan" class="img-thumbnail" style="width:250px;height:250px"/>
+                <p>Shaan</p>
+                <p style="text-justify:justify;">
+                    <p class="table-dark">About:</p>
+                    Since the mid-90's, Shaan has been lending his warm, evocative vocals to Indian pop and 
+                    filmi smashes while simultaneously pursuing a successful career as TV host for popular music shows.
+                    Shaan honed his Indian pop chops on intriguing solo releases. 
+                    Aksar... (2004) includes a remix of his turn-of-the-century 
+                    hit “Tanha Dil” with vocals by the Spice Girls' Mel C.
+                    Shaan won the Filmfare Award for Best Male Playback Singer twice: 
+                    in 2007 for “Chand Sifarish” from Fanaa, alongside Kailash Kher, 
+                    and in 2008 for “Jab Se Tere Naina” from Saawariya.
+                </p>
+            </div>
+            <div class="col-sm-3 table-warning highlightable" align="center" style="border:1px solid black;">
+                <image src="atif.jpeg" alt="atif aslim" class="img-thumbnail btn-color-info" style="width:250px;height:250px"/>
+                <p>Atif Aslim</p>
+                <p style="text-justify:justify;">
+                    <p class="table-dark">About:</p>
+                    Aslam is best-known for his prolific work as a playback singer, 
+                    recording vocals for tracks that Bollywood actors then lip sync to onscreen.
+                    While still in college, Atif Aslam formed the rock band Jal and 
+                    financed the recording of their hit single “Aadat”.
+                    The success of “Aadat” drew the attention of Bollywood director Mahesh Bhatt, 
+                    who asked Aslam to record a track for the film Zeher.
+                </p>
+            </div>
+            <div class="col-sm-3 table-primary highlightable" align="center" style="border:1px solid black;">
+                <image src="kk.jpeg" alt="kk" class="img-thumbnail" style="width:250px;height:250px"/>
+                <p>KK</p>
+                <p style="text-justify:justify;">
+                    <p class="table-dark">About:</p>
+                    Delhi native KK—short for Krishnakumar Kunnath—is a popular and prolific Bollywood playback singer.
+                    His 1999 solo debut, Pal, spawned the hit power ballad “Pyaar Ke Pal,” 
+                    which remained a top-selling song in 2020 on India's iTunes Top 100 Alternative Songs chart.
+                    At the 2009 Screen Awards, which honor excellence in Indian films, 
+                    KK won Best Male Playback Singer for “Khuda Jaane,” from the movie Bachna Ae Haseeno.
+                    In 2012, he won the Eenam-Swaralaya Singer of the Year Award for his Malayalam language songs.
+                </p>
+            </div>
+            <div class="col-sm-3 bg-light highlightable" align="center" style="border:1px solid black;justify-content:center;">
+                <image src="salim.jpeg" alt="salim merchant" class="img-thumbnail" style="width:250px;height:250px"/>
+                <p>Salim Merchant</p>
+                <p style="text-justify:justify;">
+                    <p class="table-dark">About:</p>
+                    Singer, composer and producer Salim Merchant bridges generations, styles and themes with a honed, 
+                    versatile sonic sensibility that he's championed in film music and beyond.
+                    He's perhaps best known for his work with his older brother Sulaiman Merchant as Salim-Sulaiman. 
+                    The duo have put their powerful spin on Bollywood hits like 
+                    “Ainvayi Ainvayi” (from Band Baaja Baaraat) and “Chak De! India”, 
+                    on fusion on songs for Coke Studio India and their own collaborative song series Bhoomi, 
+                    as well as on spiritual songs, pop and progressive rock.Having also co-founded Merchant Records, 
+                    his production skills shine through on everything from wide-ranging fusion to pop to rock.
+                </p>
+            </div>
+        </div>
+        </div>
+</html>
